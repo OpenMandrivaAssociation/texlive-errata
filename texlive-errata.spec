@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/errata
+# catalog-date 2008-08-19 20:15:24 +0200
+# catalog-license lppl
+# catalog-version v0.3
 Name:		texlive-errata
 Version:	v0.3
 Release:	1
@@ -47,6 +53,7 @@ difference to the published version.
 #- source
 %doc %{_texmfdistdir}/source/latex/errata/errata.dtx
 %doc %{_texmfdistdir}/source/latex/errata/errata.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ difference to the published version.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
