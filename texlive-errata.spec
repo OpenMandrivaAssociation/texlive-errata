@@ -6,7 +6,7 @@
 # catalog-version v0.3
 Name:		texlive-errata
 Version:	v0.3
-Release:	2
+Release:	3
 Summary:	Error markup for LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/errata
