@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/errata
-# catalog-date 2008-08-19 20:15:24 +0200
-# catalog-license lppl
-# catalog-version v0.3
 Name:		texlive-errata
-Version:	v0.3
-Release:	10
+Version:	0.3
+Release:	1
 Summary:	Error markup for LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/errata
