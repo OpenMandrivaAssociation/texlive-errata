@@ -1,6 +1,6 @@
 Name:		texlive-errata
 Version:	42428
-Release:	1
+Release:	2
 Summary:	Error markup for LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/errata
