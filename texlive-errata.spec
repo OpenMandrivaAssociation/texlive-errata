@@ -3,7 +3,7 @@ Version:	42428
 Release:	2
 Summary:	Error markup for LaTeX documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/errata
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/errata
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/errata.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/errata.doc.r%{version}.tar.xz
